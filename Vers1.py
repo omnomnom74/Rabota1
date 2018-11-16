@@ -21,7 +21,7 @@ def echo_message(message):
     if message.text == 'Кто самый лучший человек на земле?':
         bot.send_message(message.chat.id, 'Соня- самый лучший человек на земле <3')
     else:
-        bot.send_message(message.chat.id, 'Задай правильный вопрос:\n(Кто самый лучший человек на земле?)')
+        bot.send_message(message.chat.id, 'Задай правильный вопрос:\n"Кто самый лучший человек на земле?"')
 
 
 # @server.route('/' + TOKEN, methods=['POST'])
