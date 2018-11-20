@@ -1,3 +1,2 @@
-Theano
-pyTelegramBotAPI
+pyTelegramBotApi == 3.6.6
 flask
